@@ -124,17 +124,49 @@ h1 {
   white-space: nowrap;
 }
 
-.portfolio-pdf {
-  background: #fff;
-  display: block;
-  height: 84vh;
-  width: 100%;
+.portfolio-section { border-top: 1px solid rgba(181, 173, 173, .45); padding: 36px 0 68px; }
+
+.section-introduction {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: minmax(140px, 1fr) minmax(300px, 2fr);
+  margin-bottom: 40px;
 }
+
+.section-label, .section-introduction p { font-size: 15px; line-height: 1.5; margin: 0; }
+.section-introduction > div > p { max-width: 550px; }
+
+.section-introduction h2 {
+  color: rgba(255, 255, 255, .72);
+  font-size: clamp(38px, 5vw, 76px);
+  font-weight: 100;
+  letter-spacing: -4px;
+  line-height: 1;
+  margin: 0 0 18px;
+}
+
+.work-index { list-style: none; margin: 0; padding: 0; }
+
+.work-index li {
+  border-top: 1px solid rgba(181, 173, 173, .26);
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(260px, 1fr) minmax(250px, 1fr);
+  padding: 15px 0;
+}
+
+.work-index li:last-child { border-bottom: 1px solid rgba(181, 173, 173, .26); }
+.work-index li span:first-child { color: rgba(255, 255, 255, .84); font-size: 18px; font-weight: 400; }
+.work-index li span:last-child { font-size: 14px; line-height: 1.5; }
 
 @media (max-width: 700px) {
   .portfolio-document { padding: 132px 24px 24px; }
   .portfolio-heading { display: block; margin-bottom: 28px; }
   .portfolio-heading h1 { margin: 12px 0; }
   .portfolio-heading p:last-child { text-align: left; }
-  .portfolio-pdf { height: 76vh; }
+  .portfolio-section { padding: 28px 0 48px; }
+  .section-introduction { display: block; margin-bottom: 28px; }
+  .section-label { margin-bottom: 32px; }
+  .work-index li { display: block; padding: 16px 0; }
+  .work-index li span:last-child { display: block; margin-top: 7px; }
 }
