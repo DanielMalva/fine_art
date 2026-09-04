@@ -138,9 +138,9 @@ h1 {
 .about-text p { color: rgba(255, 255, 255, .78); font-size: clamp(18px, 1.55vw, 24px); font-weight: 100; letter-spacing: -1.3px; line-height: 1.35; margin: 0 0 32px; }
 .about-text p:first-child { color: rgba(255, 255, 255, .92); font-size: clamp(28px, 2.4vw, 40px); line-height: 1.12; }
 .contact-label { color: var(--text); font-size: 15px; margin: 0 0 24px; }
-.contact-document h1 { font-size: clamp(55px, 8vw, 124px); margin: 0 0 32px; }
-.contact-email { border-bottom: 1px solid rgba(255, 255, 255, .72); color: rgba(255, 255, 255, .8); font-size: clamp(21px, 3vw, 46px); font-weight: 100; letter-spacing: -2px; padding-bottom: 8px; }
-.contact-email:hover { color: var(--accent); border-color: var(--accent); }
+.contact-document h1 { font-size: clamp(46px, 6vw, 92px); margin: 0 0 24px; }
+.contact-email { color: rgba(255, 255, 255, .8); font-size: clamp(18px, 2.2vw, 34px); font-weight: 100; letter-spacing: -1.5px; }
+.contact-email:hover { color: var(--accent); }
 .exhibitions { border-top: 1px solid rgba(181, 173, 173, .45); margin-top: 96px; padding-top: 36px; }
 .exhibitions > h2 { color: rgba(255, 255, 255, .72); font-size: clamp(38px, 5vw, 76px); font-weight: 100; letter-spacing: -4px; line-height: 1; margin: 0 0 48px; }
 .exhibitions-columns { display: grid; gap: clamp(40px, 9vw, 140px); grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -219,8 +219,8 @@ h1 {
   .about-layout { display: block; }
   .about-portrait { margin-bottom: 42px; max-width: 320px; }
   .about-text p { font-size: 19px; }
-  .contact-document h1 { font-size: clamp(52px, 15vw, 72px); }
-  .contact-email { font-size: clamp(20px, 7vw, 28px); letter-spacing: -1px; }
+  .contact-document h1 { font-size: clamp(44px, 13vw, 64px); }
+  .contact-email { font-size: clamp(18px, 6vw, 24px); letter-spacing: -1px; }
   .exhibitions { margin-top: 56px; padding-top: 28px; }
   .exhibitions > h2 { margin-bottom: 32px; }
   .exhibitions-columns { display: block; }
