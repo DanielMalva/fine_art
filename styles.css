@@ -102,3 +102,39 @@ h1 {
   h1 { font-size: clamp(66px, 19vw, 110px); letter-spacing: -4px; }
   .hero-note { bottom: 26px; left: 24px; }
 }
+
+.works-page { background: var(--background); }
+
+.portfolio-document { padding: 212px 7.5vw 8vh; }
+
+.portfolio-heading {
+  align-items: baseline;
+  color: var(--text);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  margin-bottom: 44px;
+}
+
+.portfolio-heading p { font-size: 14px; margin: 0; }
+.portfolio-heading p:last-child { text-align: right; }
+
+.portfolio-heading h1 {
+  font-size: clamp(52px, 7vw, 108px);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.portfolio-pdf {
+  background: #fff;
+  display: block;
+  height: 84vh;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .portfolio-document { padding: 132px 24px 24px; }
+  .portfolio-heading { display: block; margin-bottom: 28px; }
+  .portfolio-heading h1 { margin: 12px 0; }
+  .portfolio-heading p:last-child { text-align: left; }
+  .portfolio-pdf { height: 76vh; }
+}
