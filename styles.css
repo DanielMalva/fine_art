@@ -130,6 +130,11 @@ h1 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.mentario-group { border-top: 1px solid rgba(181, 173, 173, .45); padding: 34px 0 76px; }
+.mentario-group + .mentario-group { margin-top: 18px; }
+.mentario-group > h2 { color: rgba(255, 255, 255, .72); font-size: clamp(28px, 3.5vw, 52px); font-weight: 100; letter-spacing: -3px; line-height: 1; margin: 0 0 40px; }
+.mentario-group-empty { min-height: 200px; }
+
 .series-card { min-width: 0; }
 
 .series-icon {
@@ -160,7 +165,7 @@ h1 {
 .icon-desambiguacao::after { border-width: 1px 0; height: 58%; transform: rotate(-35deg); }
 .icon-museu::after { border-radius: 50%; height: 54%; width: 54%; }
 
-.series-card h2 {
+.series-card h3 {
   color: rgba(255, 255, 255, .78);
   font-size: clamp(23px, 2.1vw, 34px);
   font-weight: 100;
@@ -176,6 +181,8 @@ h1 {
   .portfolio-heading { display: block; margin-bottom: 28px; }
   .portfolio-heading h1 { margin: 12px 0; }
   .portfolio-heading p:last-child { text-align: left; }
+  .mentario-group { padding: 28px 0 54px; }
+  .mentario-group > h2 { margin-bottom: 28px; }
   .series-grid { gap: 34px 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .series-card h2 { font-size: 22px; letter-spacing: -1.5px; }
+  .series-card h3 { font-size: 22px; letter-spacing: -1.5px; }
 }
