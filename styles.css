@@ -62,7 +62,7 @@ nav a:hover, nav a.active { color: var(--text); }
 }
 
 h1 {
-  color: #fff;
+  color: rgba(255, 255, 255, .72);
   font-size: clamp(72px, 10vw, 158px);
   font-weight: 100;
   letter-spacing: -6px;
