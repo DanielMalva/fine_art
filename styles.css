@@ -247,14 +247,13 @@ h1 {
 .entity-heading h1 { font-size: clamp(54px, 7vw, 112px); margin: 0 0 22px; }
 .entity-summary { color: rgba(255, 255, 255, .8); font-size: clamp(19px, 1.8vw, 28px); font-weight: 200; letter-spacing: normal; line-height: 1.25; margin: 0; max-width: 570px; }
 .entity-profile, .entity-section, .entity-details { border-top: 1px solid rgba(181, 173, 173, .45); padding: 32px 0 64px; }
-.entity-profile { display: grid; gap: clamp(40px, 9vw, 150px); grid-template-columns: minmax(180px, .4fr) minmax(320px, 1fr); }
+.entity-profile { display: block; }
 .entity-expandable > summary { cursor: pointer; list-style: none; position: relative; }
 .entity-expandable > summary::-webkit-details-marker { display: none; }
 .entity-expandable > summary::after { color: var(--accent); content: "+"; font-size: clamp(30px, 3.5vw, 54px); font-weight: 100; line-height: .8; position: absolute; right: 0; top: 0; }
 .entity-expandable[open] > summary::after { content: "−"; }
 .entity-profile h2, .entity-section > h2, .entity-expandable > summary h2 { color: rgba(255, 255, 255, .72); font-size: clamp(30px, 3.5vw, 54px); font-weight: 100; letter-spacing: -3px; line-height: 1; margin: 0; }
-.entity-profile > summary { grid-column: 1 / -1; }
-.entity-profile > div { grid-column: 2; max-width: 680px; }
+.entity-profile-content { margin-left: calc(28.57% + clamp(40px, 9vw, 150px)); max-width: 680px; }
 .entity-profile p, .entity-detail-text { color: rgba(255, 255, 255, .78); font-size: clamp(18px, 1.5vw, 23px); font-weight: 200; letter-spacing: normal; line-height: 1.4; margin: 0 0 26px; }
 .entity-section > h2 { margin-bottom: 40px; }
 .entity-data-grid { display: grid; gap: 0 40px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0; max-width: 900px; }
@@ -306,6 +305,7 @@ h1 {
   .people-grid figure { margin-bottom: 12px; }
   .entity-document { padding: 132px 24px 52px; }
   .entity-heading, .entity-profile { display: block; }
+  .entity-profile-content { margin-left: 0; }
   .entity-heading { margin-bottom: 48px; padding-bottom: 28px; }
   .entity-heading figure { margin-bottom: 32px; max-width: 320px; }
   .entity-heading h1 { font-size: clamp(48px, 13vw, 70px); }
