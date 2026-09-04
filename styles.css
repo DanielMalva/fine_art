@@ -64,7 +64,7 @@ nav a:hover, nav a.active { color: var(--text); }
 h1 {
   color: #fff;
   font-size: clamp(72px, 10vw, 158px);
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: -6px;
   line-height: .88;
   margin: 0 0 44px;
