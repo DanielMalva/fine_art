@@ -248,8 +248,10 @@ h1 {
 .entity-summary { color: rgba(255, 255, 255, .8); font-size: clamp(19px, 1.8vw, 28px); font-weight: 200; letter-spacing: normal; line-height: 1.25; margin: 0; max-width: 570px; }
 .entity-profile, .entity-section, .entity-details { border-top: 1px solid rgba(181, 173, 173, .45); padding: 32px 0 64px; }
 .entity-profile { display: grid; gap: clamp(40px, 9vw, 150px); grid-template-columns: minmax(180px, .4fr) minmax(320px, 1fr); }
-.entity-expandable > summary { cursor: pointer; list-style: none; }
+.entity-expandable > summary { align-items: flex-start; cursor: pointer; display: flex; justify-content: space-between; list-style: none; }
 .entity-expandable > summary::-webkit-details-marker { display: none; }
+.entity-expandable > summary::after { color: var(--accent); content: "+"; flex: 0 0 auto; font-size: clamp(30px, 3.5vw, 54px); font-weight: 100; line-height: .8; margin-left: 24px; }
+.entity-expandable[open] > summary::after { content: "−"; }
 .entity-profile h2, .entity-section > h2, .entity-expandable > summary h2 { color: rgba(255, 255, 255, .72); font-size: clamp(30px, 3.5vw, 54px); font-weight: 100; letter-spacing: -3px; line-height: 1; margin: 0; }
 .entity-profile > div { max-width: 680px; }
 .entity-profile p, .entity-detail-text { color: rgba(255, 255, 255, .78); font-size: clamp(18px, 1.5vw, 23px); font-weight: 200; letter-spacing: normal; line-height: 1.4; margin: 0 0 26px; }
