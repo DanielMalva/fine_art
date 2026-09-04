@@ -161,7 +161,8 @@ h1 {
 .mentario-group > h2 { color: rgba(255, 255, 255, .72); font-size: clamp(28px, 3.5vw, 52px); font-weight: 100; letter-spacing: -3px; line-height: 1; margin: 0 0 40px; }
 .mentario-group-empty { min-height: 200px; }
 
-.series-card { min-width: 0; }
+.series-card { display: block; min-width: 0; }
+.series-card:hover h3, .series-card:hover p { color: var(--accent); }
 
 .series-icon {
   align-items: center;
@@ -204,6 +205,20 @@ h1 {
 
 .series-card p { font-size: 14px; margin: 0; }
 
+.series-page { background: var(--background); }
+.series-document { padding: 212px 7.5vw 10vh; }
+.back-link { color: var(--accent); display: inline-block; font-size: 14px; margin-bottom: 70px; }
+.back-link:hover { color: rgba(255, 255, 255, .8); }
+.series-heading { border-bottom: 1px solid rgba(181, 173, 173, .45); display: grid; grid-template-columns: 1fr auto 1fr; margin-bottom: 64px; padding-bottom: 28px; }
+.series-heading p { font-size: 14px; margin: 0; padding-top: 14px; }
+.series-heading p:last-child { text-align: right; }
+.series-heading h1 { font-size: clamp(47px, 6.5vw, 104px); margin: 0; white-space: nowrap; }
+.series-layout { display: grid; gap: clamp(40px, 9vw, 150px); grid-template-columns: minmax(220px, .55fr) minmax(320px, 1fr); }
+.series-metadata { border-top: 1px solid rgba(181, 173, 173, .26); }
+.series-metadata p { border-bottom: 1px solid rgba(181, 173, 173, .26); font-size: 14px; line-height: 1.5; margin: 0; padding: 14px 0; }
+.series-text { max-width: 650px; }
+.series-text p { color: rgba(255, 255, 255, .78); font-size: clamp(18px, 1.55vw, 24px); font-weight: 100; letter-spacing: -1.3px; line-height: 1.35; margin: 0 0 32px; }
+
 @media (max-width: 700px) {
   .portfolio-document { padding: 132px 24px 24px; }
   .about-document { padding: 132px 24px 52px; }
@@ -225,4 +240,12 @@ h1 {
   .exhibitions > h2 { margin-bottom: 32px; }
   .exhibitions-columns { display: block; }
   .exhibitions-columns > section + section { margin-top: 52px; }
+  .series-document { padding: 132px 24px 52px; }
+  .back-link { margin-bottom: 42px; }
+  .series-heading { display: block; margin-bottom: 36px; padding-bottom: 22px; }
+  .series-heading h1 { font-size: clamp(42px, 11vw, 58px); margin: 12px 0; white-space: normal; }
+  .series-heading p:last-child { text-align: left; }
+  .series-layout { display: block; }
+  .series-metadata { margin-bottom: 42px; }
+  .series-text p { font-size: 19px; }
 }
