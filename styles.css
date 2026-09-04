@@ -164,6 +164,8 @@ h1 {
 .icon-jardim::after { border-radius: 50% 0 50% 0; transform: rotate(45deg); }
 .icon-desambiguacao::after { border-width: 1px 0; height: 58%; transform: rotate(-35deg); }
 .icon-museu::after { border-radius: 50%; height: 54%; width: 54%; }
+.icon-personificacoes::after { border-radius: 50% 50% 50% 0; height: 48%; transform: rotate(45deg); width: 48%; }
+.icon-linguas::after { border-width: 1px 0; height: 52%; transform: skewY(-28deg); width: 58%; }
 
 .series-card h3 {
   color: rgba(255, 255, 255, .78);
