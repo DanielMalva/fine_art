@@ -12,7 +12,7 @@ html, body { min-height: 100%; }
 
 body {
   margin: 0;
-  background: var(--background);
+  background: rgba(29, 21, 23, .88);
   color: var(--text);
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -36,7 +36,7 @@ a { color: inherit; text-decoration: none; }
   z-index: 1;
 }
 
-body:not(.works-page):not(.about-page):not(.contact-page):not(.series-page) .site-header { background: transparent; }
+.home-page .site-header { background: transparent; }
 
 .wordmark { display: block; height: 90px; }
 .wordmark img { display: block; height: 90px; width: 150px; }
