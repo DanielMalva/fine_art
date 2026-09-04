@@ -233,10 +233,38 @@ h1 {
 .people-introduction p { color: rgba(255, 255, 255, .78); font-size: clamp(17px, 1.35vw, 21px); font-weight: 200; letter-spacing: normal; line-height: 1.4; margin: 0 0 24px; }
 .people-grid { display: grid; gap: 18px; grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .people-grid article { min-width: 0; }
+.people-grid .person-card { display: block; min-width: 0; }
+.people-grid .person-card:hover h2, .people-grid .person-card:hover p { color: var(--accent); }
 .people-grid figure { aspect-ratio: 3 / 4; border: 1px solid rgba(181, 173, 173, .45); margin: 0 0 14px; overflow: hidden; }
 .people-grid figure img { display: block; height: 100%; object-fit: cover; object-position: center; width: 100%; }
 .people-grid h2 { color: rgba(255, 255, 255, .8); font-size: clamp(19px, 1.55vw, 26px); font-weight: 100; letter-spacing: -1.5px; line-height: 1.07; margin: 0 0 8px; }
 .people-grid p { color: var(--accent); font-size: 12px; margin: 0; }
+.entity-document { padding: 212px 7.5vw 10vh; }
+.entity-heading { align-items: end; border-bottom: 1px solid rgba(181, 173, 173, .45); display: grid; gap: clamp(38px, 7vw, 110px); grid-template-columns: minmax(220px, .5fr) minmax(320px, 1fr); margin-bottom: 76px; padding-bottom: 36px; }
+.entity-heading figure { aspect-ratio: 3 / 4; margin: 0; max-width: 410px; overflow: hidden; }
+.entity-heading img { display: block; height: 100%; object-fit: cover; width: 100%; }
+.entity-position { color: var(--accent); font-size: 15px; margin: 0 0 18px; }
+.entity-heading h1 { font-size: clamp(54px, 7vw, 112px); margin: 0 0 22px; }
+.entity-summary { color: rgba(255, 255, 255, .8); font-size: clamp(19px, 1.8vw, 28px); font-weight: 200; letter-spacing: normal; line-height: 1.25; margin: 0; max-width: 570px; }
+.entity-profile, .entity-section, .entity-details { border-top: 1px solid rgba(181, 173, 173, .45); padding: 32px 0 64px; }
+.entity-profile { display: grid; gap: clamp(40px, 9vw, 150px); grid-template-columns: minmax(180px, .4fr) minmax(320px, 1fr); }
+.entity-profile h2, .entity-section > h2 { color: rgba(255, 255, 255, .72); font-size: clamp(30px, 3.5vw, 54px); font-weight: 100; letter-spacing: -3px; line-height: 1; margin: 0; }
+.entity-profile > div { max-width: 680px; }
+.entity-profile p, .entity-detail-text { color: rgba(255, 255, 255, .78); font-size: clamp(18px, 1.5vw, 23px); font-weight: 200; letter-spacing: normal; line-height: 1.4; margin: 0 0 26px; }
+.entity-section > h2 { margin-bottom: 40px; }
+.entity-data-grid { display: grid; gap: 0 40px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0; max-width: 900px; }
+.entity-data-grid div { border-top: 1px solid rgba(181, 173, 173, .26); padding: 13px 0; }
+.entity-data-grid dt, .entity-data-grid dd { font-size: 14px; line-height: 1.45; margin: 0; }
+.entity-data-grid dt { color: var(--text); }
+.entity-data-grid dd { color: rgba(255, 255, 255, .82); font-weight: 200; margin-top: 4px; }
+.entity-production-grid { display: grid; gap: 18px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.entity-production-grid article { border-top: 1px solid rgba(181, 173, 173, .45); min-height: 145px; padding-top: 13px; }
+.entity-production-grid h3 { color: rgba(255, 255, 255, .82); font-size: clamp(20px, 1.7vw, 28px); font-weight: 100; letter-spacing: -1.5px; line-height: 1.08; margin: 0 0 12px; }
+.entity-production-grid p { color: var(--text); font-size: 14px; line-height: 1.45; margin: 0; }
+.entity-details { padding-bottom: 0; }
+.entity-details summary { color: var(--accent); cursor: pointer; font-size: clamp(20px, 1.7vw, 28px); font-weight: 100; letter-spacing: -1.5px; padding-bottom: 24px; }
+.entity-details[open] { padding-bottom: 34px; }
+.entity-codes dd { overflow-wrap: anywhere; }
 
 @media (max-width: 700px) {
   .portfolio-document { padding: 132px 24px 24px; }
@@ -271,4 +299,14 @@ h1 {
   .people-introduction { margin-bottom: 44px; }
   .people-grid { gap: 26px 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .people-grid figure { margin-bottom: 12px; }
+  .entity-document { padding: 132px 24px 52px; }
+  .entity-heading, .entity-profile { display: block; }
+  .entity-heading { margin-bottom: 48px; padding-bottom: 28px; }
+  .entity-heading figure { margin-bottom: 32px; max-width: 320px; }
+  .entity-heading h1 { font-size: clamp(48px, 13vw, 70px); }
+  .entity-profile, .entity-section { padding: 28px 0 50px; }
+  .entity-profile h2, .entity-section > h2 { margin-bottom: 28px; }
+  .entity-data-grid { grid-template-columns: 1fr; }
+  .entity-production-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .entity-production-grid article { min-height: 125px; }
 }
