@@ -17,7 +17,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  letter-spacing: -1px;
+  letter-spacing: normal;
 }
 
 a { color: inherit; text-decoration: none; }
@@ -203,7 +203,7 @@ h1 {
   color: rgba(255, 255, 255, .78);
   font-size: clamp(23px, 2.1vw, 34px);
   font-weight: 100;
-  letter-spacing: -2px;
+  letter-spacing: normal;
   line-height: 1.06;
   margin: 0 0 8px;
 }
@@ -237,7 +237,7 @@ h1 {
 .people-grid .person-card:hover h2, .people-grid .person-card:hover p { color: var(--accent); }
 .people-grid figure { aspect-ratio: 3 / 4; border: 1px solid rgba(181, 173, 173, .45); margin: 0 0 14px; overflow: hidden; }
 .people-grid figure img { display: block; height: 100%; object-fit: cover; object-position: center; width: 100%; }
-.people-grid h2 { color: rgba(255, 255, 255, .8); font-size: clamp(19px, 1.55vw, 26px); font-weight: 100; letter-spacing: -1.5px; line-height: 1.07; margin: 0 0 8px; }
+.people-grid h2 { color: rgba(255, 255, 255, .8); font-size: clamp(19px, 1.55vw, 26px); font-weight: 100; letter-spacing: normal; line-height: 1.07; margin: 0 0 8px; }
 .people-grid p { color: var(--accent); font-size: 12px; margin: 0; }
 .entity-document { padding: 212px 7.5vw 10vh; }
 .entity-heading { align-items: end; border-bottom: 1px solid rgba(181, 173, 173, .45); display: grid; gap: clamp(38px, 7vw, 110px); grid-template-columns: minmax(220px, .5fr) minmax(320px, 1fr); margin-bottom: 76px; padding-bottom: 36px; }
@@ -259,10 +259,10 @@ h1 {
 .entity-data-grid dd { color: rgba(255, 255, 255, .82); font-weight: 200; margin-top: 4px; }
 .entity-production-grid { display: grid; gap: 18px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .entity-production-grid article { border-top: 1px solid rgba(181, 173, 173, .45); min-height: 145px; padding-top: 13px; }
-.entity-production-grid h3 { color: rgba(255, 255, 255, .82); font-size: clamp(20px, 1.7vw, 28px); font-weight: 100; letter-spacing: -1.5px; line-height: 1.08; margin: 0 0 12px; }
+.entity-production-grid h3 { color: rgba(255, 255, 255, .82); font-size: clamp(20px, 1.7vw, 28px); font-weight: 100; letter-spacing: normal; line-height: 1.08; margin: 0 0 12px; }
 .entity-production-grid p { color: var(--text); font-size: 14px; line-height: 1.45; margin: 0; }
 .entity-details { padding-bottom: 0; }
-.entity-details summary { color: var(--accent); cursor: pointer; font-size: clamp(20px, 1.7vw, 28px); font-weight: 100; letter-spacing: -1.5px; padding-bottom: 24px; }
+.entity-details summary { color: var(--accent); cursor: pointer; font-size: clamp(20px, 1.7vw, 28px); font-weight: 100; letter-spacing: normal; padding-bottom: 24px; }
 .entity-details[open] { padding-bottom: 34px; }
 .entity-codes dd { overflow-wrap: anywhere; }
 
@@ -276,7 +276,7 @@ h1 {
   .mentario-group { padding: 28px 0 54px; }
   .mentario-group > h2 { margin-bottom: 28px; }
   .series-grid { gap: 34px 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .series-card h3 { font-size: 22px; letter-spacing: -1.5px; }
+  .series-card h3 { font-size: 22px; letter-spacing: normal; }
   .about-heading { margin-bottom: 36px; padding-bottom: 22px; }
   .about-layout { display: block; }
   .about-portrait { margin-bottom: 42px; max-width: 320px; }
