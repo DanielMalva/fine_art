@@ -50,6 +50,9 @@ nav a:hover, nav a.active { color: var(--text); }
 
 .hero {
   align-items: center;
+  background-image: linear-gradient(rgba(29, 21, 23, .38), rgba(29, 21, 23, .68)), url("images/lamp.jpg");
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,7 +62,7 @@ nav a:hover, nav a.active { color: var(--text); }
 }
 
 h1 {
-  color: var(--text);
+  color: #fff;
   font-size: clamp(72px, 10vw, 158px);
   font-weight: 400;
   letter-spacing: -6px;
@@ -82,6 +85,7 @@ h1 {
 
 .hero-note {
   bottom: 40px;
+  color: #fff;
   font-size: 13px;
   left: 7.5vw;
   line-height: 1.45;
