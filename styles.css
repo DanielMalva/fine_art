@@ -215,6 +215,10 @@ h1 {
 .series-heading p { font-size: 14px; margin: 0; padding-top: 14px; }
 .series-heading p:last-child { text-align: right; }
 .series-heading h1 { font-size: clamp(47px, 6.5vw, 104px); margin: 0; white-space: nowrap; }
+.series-heading-long { display: block; }
+.series-heading-long h1 { white-space: normal; }
+.series-heading-long > div { display: flex; justify-content: space-between; margin-top: 22px; }
+.series-heading-long > div p { padding: 0; }
 .series-layout { display: grid; gap: clamp(40px, 9vw, 150px); grid-template-columns: minmax(220px, .55fr) minmax(320px, 1fr); }
 .series-metadata { border-top: 1px solid rgba(181, 173, 173, .26); }
 .series-metadata p { border-bottom: 1px solid rgba(181, 173, 173, .26); font-size: 14px; line-height: 1.5; margin: 0; padding: 14px 0; }
@@ -247,6 +251,7 @@ h1 {
   .series-heading { display: block; margin-bottom: 36px; padding-bottom: 22px; }
   .series-heading h1 { font-size: clamp(42px, 11vw, 58px); margin: 12px 0; white-space: normal; }
   .series-heading p:last-child { text-align: left; }
+  .series-heading-long > div { margin-top: 18px; }
   .series-layout { display: block; }
   .series-metadata { margin-bottom: 42px; }
   .series-text p { font-size: 19px; }
