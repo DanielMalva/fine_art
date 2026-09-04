@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600&display=swap");
+
 :root {
   --background: #1d1517;
   --accent: #ff0f50;
@@ -135,7 +137,7 @@ h1 {
 .about-portrait { margin: 0; }
 .about-portrait img { display: block; filter: grayscale(1); height: auto; width: 100%; }
 .about-text { max-width: 650px; }
-.about-text p { color: rgba(255, 255, 255, .78); font-size: clamp(18px, 1.55vw, 24px); font-weight: 100; letter-spacing: -1.3px; line-height: 1.35; margin: 0 0 32px; }
+.about-text p { color: rgba(255, 255, 255, .78); font-size: clamp(18px, 1.55vw, 24px); font-weight: 200; letter-spacing: -1.3px; line-height: 1.35; margin: 0 0 32px; }
 .about-text p:first-child { color: rgba(255, 255, 255, .92); font-size: clamp(28px, 2.4vw, 40px); line-height: 1.12; }
 .contact-label { color: var(--text); font-size: 15px; margin: 0 0 24px; }
 .contact-document h1 { font-size: clamp(46px, 6vw, 92px); margin: 0 0 24px; }
@@ -217,7 +219,7 @@ h1 {
 .series-metadata { border-top: 1px solid rgba(181, 173, 173, .26); }
 .series-metadata p { border-bottom: 1px solid rgba(181, 173, 173, .26); font-size: 14px; line-height: 1.5; margin: 0; padding: 14px 0; }
 .series-text { max-width: 650px; }
-.series-text p { color: rgba(255, 255, 255, .78); font-size: clamp(18px, 1.55vw, 24px); font-weight: 100; letter-spacing: -1.3px; line-height: 1.35; margin: 0 0 32px; }
+.series-text p { color: rgba(255, 255, 255, .78); font-size: clamp(18px, 1.55vw, 24px); font-weight: 200; letter-spacing: -1.3px; line-height: 1.35; margin: 0 0 32px; }
 
 @media (max-width: 700px) {
   .portfolio-document { padding: 132px 24px 24px; }
