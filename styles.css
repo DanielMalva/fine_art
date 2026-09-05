@@ -231,6 +231,7 @@ h1 {
 .artwork-grid figure { margin: 0; }
 .artwork-grid img { display: block; height: auto; transition: opacity .2s ease; width: 100%; }
 .artwork-grid figcaption { color: var(--text); font-size: 12px; margin-top: 12px; }
+.artwork-text { margin: 88px 0 0 auto; }
 .people-introduction { border-bottom: 1px solid rgba(181, 173, 173, .45); border-top: 1px solid rgba(181, 173, 173, .45); margin-bottom: 64px; }
 .people-introduction summary { color: var(--accent); cursor: pointer; font-size: 15px; padding: 16px 0; }
 .people-introduction > div { max-width: 760px; padding: 20px 0 8px; }
