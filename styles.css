@@ -270,6 +270,7 @@ h1 {
 .entity-production-grid article { border-top: 1px solid rgba(181, 173, 173, .45); min-height: 145px; padding-top: 13px; }
 .production-thumb { aspect-ratio: 16 / 9; display: block; margin: 0 0 16px; overflow: hidden; }
 .production-thumb img { display: block; height: 100%; object-fit: cover; width: 100%; }
+.production-thumb.series-icon { height: auto; margin-bottom: 16px; padding-bottom: 0; }
 .entity-production-grid h3 { color: rgba(255, 255, 255, .82); font-size: clamp(20px, 1.7vw, 28px); font-weight: 100; letter-spacing: normal; line-height: 1.08; margin: 0 0 12px; }
 .entity-production-grid h3 a:hover { color: var(--accent); }
 .entity-production-grid p { color: var(--text); font-size: 14px; line-height: 1.45; margin: 0; }
