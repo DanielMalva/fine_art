@@ -240,6 +240,10 @@ h1 {
 .artwork-info dd { color: rgba(255, 255, 255, .82); font-weight: 200; margin: 0; overflow-wrap: anywhere; }
 .artwork-text { margin: 88px 0 0; }
 .artwork-grid + .series-layout { margin-top: 88px; }
+.lens-record { border-top: 1px solid rgba(181, 173, 173, .45); padding: 34px 0 76px; }
+.lens-record header { margin-bottom: 36px; max-width: 650px; }
+.lens-record h2 { color: rgba(255, 255, 255, .82); font-size: clamp(28px, 3.5vw, 52px); font-weight: 100; letter-spacing: -3px; line-height: 1; margin: 0 0 18px; }
+.lens-record p { color: rgba(255, 255, 255, .78); font-size: clamp(18px, 1.55vw, 24px); font-weight: 200; line-height: 1.35; margin: 0; }
 .people-introduction { border-bottom: 1px solid rgba(181, 173, 173, .45); border-top: 1px solid rgba(181, 173, 173, .45); margin-bottom: 64px; }
 .people-introduction summary { color: var(--accent); cursor: pointer; font-size: 15px; padding: 16px 0; }
 .people-introduction > div { max-width: 760px; padding: 20px 0 8px; }
