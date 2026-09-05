@@ -232,6 +232,12 @@ h1 {
 .artwork-grid figure { margin: 0; }
 .artwork-grid img { display: block; height: auto; transition: opacity .2s ease; width: 100%; }
 .artwork-grid figcaption { color: var(--text); font-size: 12px; margin-top: 12px; }
+.artwork-info { border-top: 1px solid rgba(181, 173, 173, .26); margin-top: 16px !important; padding-top: 14px; }
+.artwork-info h2 { color: rgba(255, 255, 255, .82); font-size: clamp(18px, 1.6vw, 25px); font-weight: 100; letter-spacing: normal; line-height: 1.12; margin: 0 0 14px; overflow-wrap: anywhere; }
+.artwork-info dl { margin: 0; }
+.artwork-info div { display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 8px; margin-bottom: 6px; }
+.artwork-info dt { color: var(--text); }
+.artwork-info dd { color: rgba(255, 255, 255, .82); font-weight: 200; margin: 0; overflow-wrap: anywhere; }
 .artwork-text { margin: 88px 0 0; }
 .artwork-grid + .series-layout { margin-top: 88px; }
 .people-introduction { border-bottom: 1px solid rgba(181, 173, 173, .45); border-top: 1px solid rgba(181, 173, 173, .45); margin-bottom: 64px; }
