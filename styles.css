@@ -189,6 +189,10 @@ h1 {
   width: 42%;
 }
 
+.series-thumb { border: 0; }
+.series-thumb::after { content: none; }
+.series-thumb img { display: block; height: 100%; left: 0; object-fit: cover; position: absolute; top: 0; width: 100%; }
+
 .icon-pan::after { border-radius: 50%; }
 .icon-quem::after { height: 56%; width: 34%; }
 .icon-spoiled::after { border-radius: 50% 50% 45% 45%; height: 30%; width: 56%; }
