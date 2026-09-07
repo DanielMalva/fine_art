@@ -274,6 +274,7 @@ h1 {
 .entity-expandable > summary::after { color: var(--accent); content: "+"; font-size: clamp(30px, 3.5vw, 54px); font-weight: 100; line-height: .8; position: absolute; right: 0; top: 0; }
 .entity-expandable[open] > summary::after { content: "−"; }
 .entity-profile h2, .entity-section > h2, .entity-expandable > summary h2 { color: rgba(255, 255, 255, .72); font-size: clamp(30px, 3.5vw, 54px); font-weight: 100; letter-spacing: -3px; line-height: 1; margin: 0; }
+.entity-expandable > summary h2 { max-width: calc(100% - 80px); }
 .entity-profile-content { margin-left: calc(28.57% + clamp(40px, 9vw, 150px)); max-width: 680px; }
 .entity-profile p, .entity-detail-text { color: rgba(255, 255, 255, .78); font-size: clamp(18px, 1.5vw, 23px); font-weight: 200; letter-spacing: normal; line-height: 1.4; margin: 0 0 26px; }
 .entity-section > h2 { margin-bottom: 40px; }
